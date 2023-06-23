@@ -1,0 +1,32 @@
+format = """
+$directory\
+$git_branch\
+$git_status\
+$line_break\
+$character"""
+
+add_newline = false
+
+[character]
+error_symbol = "[󰣇 ](bold #ff5555)"
+success_symbol = "[󰣇 ](bold #50fa7b)"
+vimcmd_symbol = "[󰣇 ](bold #f8f8f2)"
+
+# [cmd_duration]
+# style = "bold #f1fa8c"
+
+[directory]
+style = "bold #ff79c6"
+
+[git_branch]
+style = "bold #ffb86c"
+
+[git_status]
+style = "bold #ff5555"
+
+# [hostname]
+# style = "bold #bd93f9"
+
+# [username]
+# format = "[$user]($style) on "
+# style_user = "bold #8be9fd"
