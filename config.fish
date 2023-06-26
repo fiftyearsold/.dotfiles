@@ -15,3 +15,5 @@ set -g -x RANGER_LOAD_DEFAULT_RC FALSE
 
 # editor
 set -gx EDITOR nvim
+
+set -x FZF_DEFAULT_OPTS --cycle --layout=reverse --border --height=90% --preview-window=wrap --marker="*"
