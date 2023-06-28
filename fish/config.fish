@@ -4,6 +4,10 @@ end
 
 set fish_greeting
 
+#alias
+alias ra 'ranger'
+alias lg 'lazygit'
+
 # starship
 starship init fish | source
 
